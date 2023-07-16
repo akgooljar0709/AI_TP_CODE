@@ -2,9 +2,11 @@
 % Define facts and rules related to the customer support domain
 
 % Knowledge about common issues and their solutions
-solution(issue1, 'Please try restarting your device.').
-solution(issue2, 'Make sure you are connected to the internet.').
-solution(issue3, 'Update your software to the latest version.').
+solution('My device is not turning on.', 'Please try restarting your device.').
+solution('I am unable to connect to the internet.', 'Make sure you are connected to the internet.').
+solution('The software is crashing frequently.', 'Update your software to the latest version.').
+solution('I forgot my password.', 'Please use the "Forgot Password" feature to reset your password.').
+solution('The website is not loading properly.', 'Clear your browser cache and try again.').
 % ... add more issues and solutions
 
 % Knowledge about greetings and farewells
